@@ -1,0 +1,48 @@
+.message {
+
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.imageAndText {
+    max-width: 530px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+}
+
+.imageAndText img {
+    width:48px
+}
+
+.text {
+
+    color:white;
+
+    background-color: #0066cc;
+    border-radius:10px;
+    padding: 5px 15px 8px
+}
+
+.text:after {
+
+}
+
+
+.name {
+    font-weight: 600;
+}
+
+/*pre*/
+.messageText {
+    font-weight: normal;
+    white-space: pre-wrap;
+}
+
+.time {
+    font-weight: 600;
+    font-size: 10px;
+    padding-right: 10px;
+}
