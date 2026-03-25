@@ -7,17 +7,28 @@
 }
 
 .error {
+    color: #cc0000;
 }
 
 .input {
-   border-radius: 20px;
+   border-radius: 10px;
     height: 36px;
+    outline: none; /* Убирает обводку */
+    box-shadow: none;
 }
 
 .input:focus {
+
+    outline: none; /* Убирает обводку */
+    box-shadow: none;
 }
 
 .errorInput {
+    outline: none; /* Убирает обводку */
+    box-shadow: none;
+    border-color: #cc0000;
+    border-radius: 10px;
+    height: 36px;
 }
 
 .button {
