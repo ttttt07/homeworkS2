@@ -1,13 +1,17 @@
 .greetingForm {
+
 }
 
 .inputAndButtonContainer {
+    display: flex;
 }
 
 .error {
 }
 
 .input {
+   border-radius: 20px;
+    height: 36px;
 }
 
 .input:focus {
@@ -17,6 +21,12 @@
 }
 
 .button {
+    background-color: #0066cc;
+    color: white;
+    border: 1px solid transparent;
+    border-radius:5px;
+    width:60px;
+    height: 36px
 }
 
 .button:focus {
