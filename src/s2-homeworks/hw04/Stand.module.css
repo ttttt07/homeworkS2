@@ -16,6 +16,14 @@
     gap: 24px;
 }
 
+
+
+
+
+.additional{
+
+}
+
 .checkboxes {
     display: flex;
     flex-direction: column;
